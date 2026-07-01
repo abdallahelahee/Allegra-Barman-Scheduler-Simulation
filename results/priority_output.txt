@@ -1,0 +1,103 @@
+javac -d bin src/barScheduling/*.java
+java -cp bin barScheduling.SchedulingSimulation 5 2 5 42
+------Allegra the Barman Scheduling Simulation------
+-------------- with 5 patrons---------------
+-------------- and PRIORITY scheduling ---------------
++0: new thirsty Patron arrived at time 340
+0: will order 3 drinks
+0: White Wine ordered
+---Barman preparing drink for patron 0: White Wine with priority 0
+---Barman has made drink for patron 0: White Wine
+0: White Wine -> patron drinking
+0: Cider ordered
+---Barman preparing drink for patron 0: Cider with priority 0
+---Barman has made drink for patron 0: Cider
+0: Cider -> patron drinking
++1: new thirsty Patron arrived at time 575
+1: will order 4 drinks
+1: Cider ordered
+---Barman preparing drink for patron 1: Cider with priority 1
+---Barman has made drink for patron 1: Cider
+1: Cider -> patron drinking
+0: B52 ordered
+---Barman preparing drink for patron 0: B52 with priority 0
+1: Tequila shot ordered
+---Barman has made drink for patron 0: B52
+0: B52 -> patron drinking
+---Barman preparing drink for patron 1: Tequila shot with priority 1
+0: completed
+---Barman has made drink for patron 1: Tequila shot
+1: Tequila shot -> patron drinking
+1: Bloody Mary ordered
+---Barman preparing drink for patron 1: Bloody Mary with priority 1
+---Barman has made drink for patron 1: Bloody Mary
+1: Bloody Mary -> patron drinking
+1: White Wine ordered
+---Barman preparing drink for patron 1: White Wine with priority 1
+---Barman has made drink for patron 1: White Wine
+1: White Wine -> patron drinking
+1: completed
++2: new thirsty Patron arrived at time 2421
+2: will order 3 drinks
+2: Martini ordered
+---Barman preparing drink for patron 2: Martini with priority 2
+---Barman has made drink for patron 2: Martini
+2: Martini -> patron drinking
+2: Red Wine ordered
+---Barman preparing drink for patron 2: Red Wine with priority 2
+---Barman has made drink for patron 2: Red Wine
+2: Red Wine -> patron drinking
+2: Martini ordered
+---Barman preparing drink for patron 2: Martini with priority 2
+---Barman has made drink for patron 2: Martini
+2: Martini -> patron drinking
+2: completed
++3: new thirsty Patron arrived at time 3379
+3: will order 6 drinks
+3: Beer ordered
+---Barman preparing drink for patron 3: Beer with priority 3
+---Barman has made drink for patron 3: Beer
+3: Beer -> patron drinking
+3: Beer ordered
+---Barman preparing drink for patron 3: Beer with priority 3
+---Barman has made drink for patron 3: Beer
+3: Beer -> patron drinking
+3: Gin and Tonic ordered
+---Barman preparing drink for patron 3: Gin and Tonic with priority 3
+---Barman has made drink for patron 3: Gin and Tonic
+3: Gin and Tonic -> patron drinking
++4: new thirsty Patron arrived at time 3713
+4: will order 4 drinks
+4: Mojito ordered
+---Barman preparing drink for patron 4: Mojito with priority 4
+---Barman has made drink for patron 4: Mojito
+4: Mojito -> patron drinking
+3: Margarita ordered
+---Barman preparing drink for patron 3: Margarita with priority 3
+---Barman has made drink for patron 3: Margarita
+3: Margarita -> patron drinking
+4: Beer ordered
+---Barman preparing drink for patron 4: Beer with priority 4
+---Barman has made drink for patron 4: Beer
+4: Beer -> patron drinking
+3: Gin and Tonic ordered
+---Barman preparing drink for patron 3: Gin and Tonic with priority 3
+---Barman has made drink for patron 3: Gin and Tonic
+3: Gin and Tonic -> patron drinking
+4: Tequila shot ordered
+---Barman preparing drink for patron 4: Tequila shot with priority 4
+---Barman has made drink for patron 4: Tequila shot
+4: Tequila shot -> patron drinking
+4: Pina Colada ordered
+---Barman preparing drink for patron 4: Pina Colada with priority 4
+3: B52 ordered
+---Barman has made drink for patron 4: Pina Colada
+4: Pina Colada -> patron drinking
+---Barman preparing drink for patron 3: B52 with priority 3
+4: completed
+---Barman has made drink for patron 3: B52
+3: B52 -> patron drinking
+3: completed
+------Waiting for Barman------
+---Barman is packing up
+------Bar closed------
